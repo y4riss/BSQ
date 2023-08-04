@@ -17,11 +17,11 @@
 # include<unistd.h>
 # define BUFF_SIZE 100000
 
-char	g_buff[BUFF_SIZE];
-char	g_line[BUFF_SIZE];
-char	*g_first_line;
-int		**g_cache;
-char	**g_matrix;
+extern char	g_buff[BUFF_SIZE];
+extern char	g_line[BUFF_SIZE];
+extern char	*g_first_line;
+extern int		**g_cache;
+extern char	**g_matrix;
 int		ft_strlen(char *s);
 char	*ft_strdup(char *s);
 void	ft_putstr(char *s);

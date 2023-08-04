@@ -12,6 +12,12 @@
 
 #include "utils.h"
 
+char	g_buff[BUFF_SIZE];
+char	g_line[BUFF_SIZE];
+char	*g_first_line;
+int		**g_cache;
+char	**g_matrix;
+
 int	ft_valid_map(int fd)
 {
 	int	line_count;
